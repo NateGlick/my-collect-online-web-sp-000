@@ -5,5 +5,5 @@ def my_collect(array)
   array << yield(array[counter])
   counter += 1
  end
-array.upcase
+array
 end
