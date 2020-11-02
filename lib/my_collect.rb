@@ -1,7 +1,7 @@
 def my_collect(array)
   counter = 0
-  student = []
-  while counter <
+  array = []
+  while counter < array.length
   counter += 1
 end
 
