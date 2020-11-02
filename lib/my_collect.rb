@@ -1,8 +1,8 @@
 def my_collect(array)
   counter = 0
   array = []
-  while counter < array.upcase
-  array << yield(array[counter])
+  while counter < array.length
+  array << yield(array[counter]).upcase
   counter += 1
  end
 array 
